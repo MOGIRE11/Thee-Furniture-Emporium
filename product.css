@@ -1,0 +1,339 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100dvw;
+    height: 100vh;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar */
+
+.navbar
+ {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: white;
+    /* border: 1px solid black; */
+ }
+ 
+ .logo-name
+ {
+  font-family: cursive;
+  font-weight: 550;
+  color: purple;
+  width: 300px;
+  height: 35px;
+  border: 2px solid purple;
+  padding: 0px 2%;
+  border-top-color:orangered ;
+  border-right-color:blue ;
+  border-bottom-color: yellowgreen;
+  border-bottom-width: 5px;
+ }
+ #favicon2
+ {
+  width: 25px;
+ }
+ .navlinks
+ {
+    width: 40%;
+    height: 100%;
+ }
+ .navlinks ul 
+ {
+   width: 100%;
+   height: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   list-style-type: none;
+ }
+ .navlinks ul a
+ {
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+ }
+ .navlinks ul a:hover
+{
+    text-decoration: underline;
+   text-underline-offset: 8px;
+   text-decoration-thickness: 3px;
+   text-decoration-color: purple;
+   color: black;
+}
+ .navsearch
+ {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid orangered;
+    border-radius: 20px;
+ }
+ #search
+ {
+    width: 85%;
+    height: 20px;
+   border:none ;
+   font-size: .9rem;
+ }
+ #search:focus
+{
+    outline: burlywood;
+}
+
+#seek
+{
+  width: 20px;
+}
+
+
+/* main */
+main {
+  max-width: 100dvw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* section.product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+} */
+
+.product
+{
+  width: 70dvw;
+  height: 50dvh;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px 10%;
+  border: 1px solid black;
+  margin-top: 2%;
+  overflow: hidden;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  flex-basis: 60%;
+  padding-left: 20px;
+}
+
+.product-details h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.product-details .product-price {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #cc0000;
+}
+
+.product-price p
+{
+  color: orange;
+}
+.product-details .product-description {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.product-options {
+  margin-bottom: 20px;
+}
+
+.product-options label {
+  margin-right: 10px;
+}
+
+.product-options select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.product-actions {
+  display: flex;
+}
+
+.product-actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cc0000;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.product-actions button:last-child {
+  margin-right: 0;
+}
+
+.product-actions button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.final
+{
+  height: 55vh;
+  display: grid;
+  grid-template-columns: auto ;
+  /* border: 1px solid white; */
+}
+ 
+.foot
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.left_foot
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border: none;
+    background: #000;
+}
+
+.left_foot section
+{
+    height: 9vh;
+    width: 90%;
+    border: 1px solid grey;
+    display: flex;
+   align-items: center;
+    margin-bottom: 3%;
+    justify-content: flex-start;
+    padding:2%;
+    background: grey;
+}
+
+.left_foot  p
+{
+    text-align: left;
+    font-size: 1.1rem;
+    margin-left: 10%;
+    color:black;
+}
+
+.left_foot h2
+{
+    text-align: center;
+    color: purple;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+ 
+.left_foot img
+{
+    width: 50px;
+    color: blue;
+}
+
+.left_foot section:hover
+{
+    transform: translate(3px,3px);
+    background: whitesmoke;
+    color: black;
+}
+
+.left_foot section:hover p
+{
+  color: black;
+}
+.foot section ul
+{
+  list-style-type: none;
+}
+
+.lin
+{
+  padding: 1% 10% ;
+}
+
+.foot section h2
+{
+  text-decoration: underline;
+  font-size: 1.4rem;
+  color: orange;
+}
+.foot section a
+{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.foot section a:hover
+{
+  color: white;
+  text-decoration: underline;
+}
+.last_foot
+{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+}
+
+
+.last_foot  a
+{
+  text-decoration: none;
+  color: grey;
+  font-weight: bolder;
+}
+
+.last_foot a:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,389 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100dvw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(45deg,lightblue,skyblue,rgb(247, 228, 228));
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.container
+{
+    height: 100dvh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.navbar
+{
+height: 50px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 2%;
+position: fixed;
+top: 0;
+z-index: 999;
+background: transparent;
+
+}
+
+.logo-name
+{
+font-family: cursive;
+font-weight: 550;
+color: purple;
+width: 300px;
+height: 35px;
+border: 2px solid purple;
+padding: 0px 2%;
+border-top-color:orangered ;
+border-right-color:blue ;
+border-bottom-color: yellowgreen;
+border-bottom-width: 5px;
+}
+#favicon2
+{
+width: 25px;
+}
+.navlinks
+{
+width: 40%;
+height: 100%;
+}
+.navlinks ul 
+{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+list-style-type: none;
+}
+.navlinks ul a
+{
+text-decoration: none;
+color: grey;
+font-weight: 600;
+}
+.navlinks ul a:hover
+{
+text-decoration: underline;
+text-underline-offset: 8px;
+text-decoration-thickness: 3px;
+text-decoration-color: purple;
+color: black;
+}
+.navsearch
+{
+width: 250px;
+height: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border: 3px solid orangered;
+border-radius: 20px;
+}
+#search
+{
+width: 85%;
+height: 20px;
+border:none ;
+font-size: .9rem;
+background: transparent;
+}
+#search:focus
+{
+outline: burlywood;
+}
+
+#seek
+{
+width: 20px;
+}
+.enquiry
+{
+    border: 1px solid lightblue;
+    box-shadow: 4px 4px 10px grey;
+    height: 70vh;
+    width: 70dvw;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2%;
+    background-color: white;
+    column-gap: 5%;
+}
+
+.left,.right
+{
+    border: 1px solid brown;
+    width: 90%;
+}
+
+.left
+{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border: none;
+    
+}
+
+.left section
+{
+    height: 9vh;
+    width: 90%;
+    border: 1px solid burlywood;
+    display: flex;
+   align-items: center;
+    margin-bottom: 3%;
+    justify-content: flex-start;
+    box-shadow: 3px 3px burlywood;
+    padding: 0px 2%;
+    /* border-radius: 50px; */
+}
+
+.left section:hover,.left section:active
+{
+    transform: translate(3px,3px);
+    background: whitesmoke;
+    color: purple;
+}
+.left  p
+{
+    text-align: left;
+    font-size: 1.1rem;
+    margin-left: 10%;
+}
+
+.left h2
+{
+    text-align: center;
+    color: purple;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+ 
+.left img
+{
+    width: 50px;
+    color: blue;
+}
+
+.right
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.right h2
+{
+    margin-bottom: 2%;
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+}
+.right fieldset
+{
+  border: none;
+  height: 40px;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right input[type="text"]
+{
+    height: 35px;
+    width: 49%;
+    text-indent: .6rem;
+    border: 2px solid burlywood;
+    font-size: 1rem;
+    background-color: white;
+}
+ .right input[type="email"]
+ {
+    height: 35px;
+    width: 100%;
+    text-indent: .6rem; 
+  margin-bottom: 2%;
+  border: 1px solid grey;
+    border-radius: 5px; 
+    font-size: 1rem;
+    background-color: white;
+    
+              
+ }
+ 
+ #sub
+ {
+    width: 100%;
+    margin-bottom: 2%;
+ }
+ #message
+ {
+    width: 100%;
+    padding: 1% 2%;
+    font-size: 1rem;
+    margin-bottom: 2%;
+ }
+ 
+ .right button
+ {
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    background:green;
+    border: 1px solid green;
+    /* border-radius: 50px; */
+    box-shadow: -4px 4px 5px burlywood ;
+ }
+ .right button:active
+ {
+    transform: translate(4px,4px);
+ }
+ 
+ /* footer */
+.final
+{
+  height: 55vh;
+  display: grid;
+  grid-template-columns: auto ;
+}
+ 
+.foot
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.left_foot
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border: none;
+    /* background: #000; */
+}
+
+.left_foot section
+{
+    height: 9vh;
+    width: 90%;
+    border: 1px solid grey;
+    display: flex;
+   align-items: center;
+    margin-bottom: 3%;
+    justify-content: flex-start;
+    padding:2%;
+    /* background: transparent; */
+    box-shadow: 3px 3px grey ;
+}
+
+.left_foot  p
+{
+    text-align: left;
+    font-size: 1.1rem;
+    margin-left: 10%;
+    color:black;
+}
+
+.left_foot h2
+{
+    text-align: center;
+    color: purple;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+ 
+.left_foot img
+{
+    width: 50px;
+    color: blue;
+}
+
+.left_foot section:hover
+{
+    transform: translate(3px,3px);
+    background: whitesmoke;
+    color: black;
+}
+
+.left_foot section:hover p
+{
+  color: black;
+}
+.foot section ul
+{
+  list-style-type: none;
+}
+
+.lin
+{
+  padding: 1% 10% ;
+}
+
+.foot section h2
+{
+  text-decoration: underline;
+  font-size: 1.4rem;
+  color: purple;
+}
+.foot section a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.foot section a:hover
+{
+  color: grey;
+  text-decoration: underline;
+}
+.last_foot
+{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+}
+
+
+.last_foot  a
+{
+  text-decoration: none;
+  color: grey;
+  font-weight: bolder;
+}
+
+.last_foot a:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
