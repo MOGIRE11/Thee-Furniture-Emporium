@@ -7,9 +7,10 @@
 body
 {
     width: 100dvw;
-    height: 100vh;
+    height: auto;
     padding-top: 50px;
     overflow-x: hidden;
+    background: linear-gradient(10deg,aliceblue,lightskyblue,whitesmoke);
 }
 .container
 {
@@ -30,7 +31,7 @@ body
     position: fixed;
     top: 0;
     z-index: 999;
-    background: white;
+    background: skyblue;
     /* border: 1px solid black; */
  }
  
@@ -96,6 +97,7 @@ body
     height: 20px;
    border:none ;
    font-size: .9rem;
+   background: transparent;
  }
  #search:focus
 {
@@ -132,7 +134,7 @@ main {
   display: grid;
   grid-template-columns: auto auto;
   padding: 0px 10%;
-  border: 1px solid black;
+  border: 1px solid brown;
   margin-top: 2%;
   overflow: hidden;
 }
@@ -208,11 +210,6 @@ main {
 
 
 
-
-
-
-
-
 /* footer */
 .final
 {
@@ -220,6 +217,7 @@ main {
   display: grid;
   grid-template-columns: auto ;
   /* border: 1px solid white; */
+  background: black;
 }
  
 .foot
@@ -235,7 +233,7 @@ main {
     align-items: center;
     padding: 2%;
     border: none;
-    background: #000;
+    background: transparent;
 }
 
 .left_foot section
@@ -321,6 +319,7 @@ main {
   align-items: center;
   justify-content: center;
   column-gap: 10%;
+  color: white;
 }
 
 
