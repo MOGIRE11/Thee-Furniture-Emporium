@@ -225,8 +225,8 @@ main {
   height: 55vh;
   display: grid;
   grid-template-columns: auto ;
-  /* border: 1px solid white; */
-  background: black;
+  background-color: #141728;
+ 
 }
  
 .foot
