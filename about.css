@@ -12,6 +12,7 @@ body
   width: 100%;
   height: auto;
   background: url(/istock/scattered-forcefields.svg);
+  /* background: whitesmoke; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* navbar */
@@ -26,7 +27,7 @@ body
     position: fixed;
     top: 0;
     z-index: 999;
-    background: lightblue;
+    background:whitesmoke;
     /* border: 1px solid black; */
  }
  
@@ -132,10 +133,10 @@ body
 }
 
  .about-us section p
- {font-size: 1.1rem;
+ {font-size: 1.05rem;
   width: 35%;
   background: white;
-  
+  font-weight: 450;
  }
 .about-us section img
 {
@@ -192,7 +193,7 @@ body
 .left_foot  p
 {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: 10%;
     color:black;
 }
@@ -235,14 +236,17 @@ body
 .foot section h2
 {
   text-decoration: underline;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: orange;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  
 }
 .foot section a
 {
   text-decoration: none;
   color: grey;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 

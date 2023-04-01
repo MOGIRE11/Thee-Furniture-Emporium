@@ -164,7 +164,7 @@ width: 20px;
 .left  p
 {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: 10%;
 }
 
@@ -214,7 +214,7 @@ width: 20px;
     height: 35px;
     width: 49%;
     text-indent: .6rem;
-    border: 2px solid burlywood;
+    border: 1px solid burlywood;
     font-size: 1rem;
     background-color: white;
 }
@@ -304,7 +304,7 @@ width: 20px;
 .left_foot  p
 {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: 10%;
     color:black;
 }
@@ -347,14 +347,14 @@ width: 20px;
 .foot section h2
 {
   text-decoration: underline;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: purple;
 }
 .foot section a
 {
   text-decoration: none;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
