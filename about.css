@@ -5,11 +5,15 @@
     box-sizing: border-box;
 }
 
+html
+{
+overflow-x: hidden;
+}
 body
 {
     padding-top: 50px;
     overflow-x: hidden;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   background: url(/istock/scattered-forcefields.svg);
   /* background: whitesmoke; */
@@ -279,4 +283,57 @@ body
   text-decoration: underline;
   cursor: pointer;
   color: white;
+}
+
+@media (max-width:600px)
+{
+  .navsearch,.navlinks
+  {
+    display:none;
+  }
+  main
+  {
+    height: auto;
+  }
+  .about-us section
+  {
+    height: 55vh;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3%;
+    background-color: transparent;
+  }
+  .about-us section p
+  {
+    width: 90%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .about-us section img
+  {
+    width: 85%;
+  }
+  
+  .final
+  {
+    height: 70dvh;
+    padding-top: 10%;
+  }
+  .foot
+  {
+    overflow: auto;
+  }
+  
+  .lin
+  {
+    width: 200px;
+  }
+  
+  .last_foot
+  {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
 }

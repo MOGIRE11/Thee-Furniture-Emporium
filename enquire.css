@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html
+{
+  overflow-x: hidden;
+}
 body
 {
     height: 100vh;
@@ -386,4 +390,72 @@ width: 20px;
   text-decoration: underline;
   cursor: pointer;
   color: white;
+}
+
+@media (max-width:600px)
+{
+  body{height: 200dvh;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;}
+  .navbar
+  {
+    background:white;
+  }
+  .navlinks, .navsearch
+  {
+    display: none;
+  }
+  
+  .enquiry
+  {
+    display: flex;
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100dvw;
+    background-color: whitesmoke;
+    box-shadow: none;
+  }
+  .right
+  {
+    border-radius: 0px;
+  }
+  .right h2,.left h2
+  {
+    font-size: 1.2rem;
+  }
+  
+  .left,.right
+  {
+    width: 90%;
+    z-index: 3;
+    margin-top: 5%;
+  }
+  
+  
+  
+  
+  
+  .final
+  {
+    height: 70dvh;
+    padding-top: 10%;
+  }
+  .foot
+  {
+    overflow: auto;
+  }
+  
+  .lin
+  {
+    width: 200px;
+  }
+  
+  .last_foot
+  {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
 }

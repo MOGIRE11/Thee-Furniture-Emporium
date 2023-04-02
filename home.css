@@ -5,11 +5,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+html
+{
+  overflow-x: hidden;
+}
 body
 {
   padding-top: 50px;
   overflow-x: hidden;
 }
+
 body ,.container
 {
     width: 100dvw;
@@ -149,6 +154,10 @@ body ,.container
   margin-bottom: 10px;
 }
 
+.hidden_paragraph
+{
+  display: none;
+}
 #catalogue
 {
  height: 40px;
@@ -164,6 +173,10 @@ align-items: center;
 justify-content: center;
 margin: auto;
 cursor: pointer;
+}
+#catalogue a
+{
+  text-decoration: none;
 }
 
 #catalogue:hover
@@ -722,5 +735,207 @@ font-size: 1rem;
   text-decoration: underline;
   cursor: pointer;
   color: white;
+}
+
+@media (max-width:600px)
+{
+  .navlinks,.navsearch
+  {
+    display: none;
+  }
+ .page1
+ {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 105dvh;
+ }
+  
+ .left,.right
+ {
+  width: 100%;
+ }
+ .left h2
+ {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+ }
+ 
+ .animate
+ {
+  font-weight: 600;
+ }
+ .description
+ {display: none;}
+ 
+ .hidden_paragraph
+ {
+  display: block;
+  width: 90%;
+  margin: auto;
+ }
+ 
+ #sofa3
+ {
+  width: 100%;
+  height: 65%;
+  border-width: 1px;
+  border-radius: 10px;
+ }
+ #promo
+ {
+  width: 50%;
+  left: 25%;
+  top: 7%;
+ }
+ .page2 h2
+{
+  text-align: center;
+  /* width: 100%; */
+  letter-spacing: .15rem;
+  text-decoration: underline;
+}
+
+/* page2 */
+.page2 h2 span
+{
+  display: none;
+}
+
+.card
+{
+  flex-direction: column;
+  width: 100dvw;
+  align-items: center;
+}
+.card section
+{
+  width: 100%;
+}
+
+.card section span p
+{
+  text-align: left;
+  font-size: 1rem;
+  padding-left: 1%;
+}
+
+.card section:hover p
+{
+  letter-spacing: .5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: all .5s;
+}
+
+/* page3 */
+.page3
+{
+  height: auto;
+}
+.stop
+{
+  height: auto;
+}
+#sp
+{
+  flex-direction: column;
+}
+
+#sp p
+{
+  width: 100%;
+  margin-bottom: 2%;
+  text-align: left;
+  padding: 3% ;
+}
+
+.sbottom
+{
+  height: 75vh;
+  width: 100%;
+  place-items: center;
+ grid-template-columns: auto auto;
+ padding: 10% 0px;
+}
+.sbottom div
+{
+  height: 95%;
+  width: 95%;
+}
+.sbottom div h2
+{
+  font-size: 1.2rem;
+  color: orange;
+  text-decoration: underline;
+}
+.sbottom div p
+{
+  font-size: .9rem;
+}
+
+.floss section
+{
+  border: none;
+}
+.floss section h2
+{
+  text-decoration: none;
+}
+/* testimonials */
+
+.testimony
+{
+  width: auto;
+  overflow: auto;
+  display: flex;
+  /* scroll-snap-stop: mandatory; */
+}
+
+.testimony div
+{
+  overflow: hidden;
+ min-width: 300px;
+ margin-right: 1%;
+ scroll-snap-stop: mandatory;
+ 
+}
+
+/* newsletter */
+.newsletter p
+{
+  width: 95%;
+  font-size: .9rem;
+}
+
+.newsletter section
+{
+  width: 100%;
+}
+
+.foot
+{
+  width: auto;
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.lin
+{
+  width: 190px;
+  /* margin-right: 9%; */
+}
+.last_foot
+{
+  height: 15dvh;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+
 }
    
