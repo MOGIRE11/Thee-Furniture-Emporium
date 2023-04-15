@@ -38,7 +38,7 @@ padding: 0px 2%;
 position: fixed;
 top: 0;
 z-index: 999;
-background: transparent;
+background: powderblue;
 
 }
 
@@ -109,6 +109,7 @@ background: transparent;
 #search:focus
 {
 outline: burlywood;
+background-color: transparent;
 }
 
 #seek
@@ -199,7 +200,7 @@ width: 20px;
 }
 .right h2
 {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     color: purple;
     text-align: center;
     text-decoration: underline;
@@ -208,7 +209,7 @@ width: 20px;
 {
   border: none;
   height: 40px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -227,7 +228,7 @@ width: 20px;
     height: 35px;
     width: 100%;
     text-indent: .6rem; 
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   border: 1px solid grey;
     border-radius: 5px; 
     font-size: 1rem;
@@ -239,14 +240,14 @@ width: 20px;
  #sub
  {
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
  }
  #message
  {
     width: 100%;
     padding: 1% 2%;
     font-size: 1rem;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
  }
  
  .right button
@@ -259,8 +260,8 @@ width: 20px;
     color: white;
     background:green;
     border: 1px solid green;
-    /* border-radius: 50px; */
-    box-shadow: -4px 4px 5px burlywood ;
+    border-radius: 0px 20px 0px 20px;
+    /* box-shadow: -4px 4px 5px burlywood ; */
  }
  .right button:active
  {
