@@ -93,8 +93,9 @@ body
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid orangered;
-    border-radius: 20px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    position: relative;
  }
  #search
  {
@@ -114,7 +115,38 @@ body
   width: 20px;
 }
 
+#myUl
+{
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+ position: absolute;
+ z-index: -1;
+ top:120%;
+ left: 0;
+ border: 1px solid white;
+ background-color: white;
+ box-shadow: 2px 2px 10px lightgrey;
+ text-indent: 2rem;
+ font-weight: 500;
+ display: none;
+}
 
+#myUl li
+{
+  height: 30px;
+  /* border-bottom: 1px solid brown; */
+}
+
+#myUl li:hover
+{
+  background-color: lightgrey;
+}
+
+#search:focus + #myUl
+{
+  display: inline-block;
+}
 /* main */
 main {
   max-width: 100dvw;
