@@ -18,6 +18,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="istock/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.1/dist/css/uikit.min.css" />
 </head>
 
 <body>
@@ -142,6 +143,7 @@
                     </section>
                 </div>
                 
+               
                 <!-- <div class="partners">
                     <h2></h2>
                     <section>
@@ -307,17 +309,19 @@
     
     
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.1/dist/js/uikit-icons.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('.animate', {
+      var typed = new Typed('.animate', {
       strings: ['office.','business.','living room.','bedroom.','kitchen.'],
       typeSpeed: 150,
       backSpeed:1,
       loop:true
     });
     
+    // changes the title when you leave and come back
     const currentTitle= document.title;
     window.addEventListener("blur",()=> 
     {
@@ -331,8 +335,8 @@
     </script>
     <script>
         AOS.init();
-      </script>
-<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    </script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
       
 </body>
 </html>
