@@ -23,3 +23,28 @@ searchItem.addEventListener('click', function(e){
     searchInput.style.display='flex';
     searchInput.style.width='85%';
 });
+
+
+// hamburger menu
+const burger=document.querySelector('.listMenu');
+const ourList=document.querySelector('.nav-list');
+const exitList=document.querySelector('.cross')
+
+burger.addEventListener('click',function(e){
+    ourList.classList.toggle('open-list')
+});
+
+exitList.addEventListener('click',function(e){
+    ourList.classList.remove('open-list');
+});
+
+const chevron=document.querySelector('.chevron');
+chevron.onclick=(e)=>{
+    chevron.classList.toggle('down');
+    productList.classList.toggle('show-more-products');
+};
+
+const productList=document.querySelector('.more-products');
+productList.addEventListener('click',function(e){
+    productList.classList.toggle('show-more-products');
+});
