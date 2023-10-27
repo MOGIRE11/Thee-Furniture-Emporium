@@ -159,6 +159,7 @@ body
 .hamburger-menu{
   position: relative;
   cursor: pointer;
+  display: none;
 }
 .nav-list {
   border: 1px solid lightblue;
@@ -861,6 +862,9 @@ font-size: 1rem;
   .navlinks,.navsearch
   {
     display: none;
+  }
+  .hamburger-menu{
+    display: flex;
   }
  .page1
  {
