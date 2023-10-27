@@ -14,3 +14,12 @@ filterInput.addEventListener('input',function()
     
 });
 
+
+// increase search input length onclick
+const searchItem=document.querySelector('.navsearch');
+const searchInput=document.querySelector('#search');
+searchItem.addEventListener('click', function(e){
+    searchItem.style.width='250px';
+    searchInput.style.display='flex';
+    searchInput.style.width='85%';
+});
