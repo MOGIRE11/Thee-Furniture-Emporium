@@ -56,6 +56,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 #favicon2 {
@@ -107,6 +108,7 @@ body {
   overflow: hidden;
   transition: width ease-in-out 0.5s;
   cursor: pointer;
+  margin-top: 15px;
 }
 
 #search {
@@ -236,7 +238,6 @@ body {
 
 /* page1 */
 .page1 {
-  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -247,7 +248,7 @@ body {
 
 .left {
   width: 45%;
-  min-width: 400px;
+  /* min-width: 400px; */
 }
 
 .left h2 {
@@ -327,7 +328,6 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding: 4%;
-  /* background-color: white; */
 }
 
 .page2 h2 {
@@ -777,17 +777,22 @@ body {
     align-items: center;
     justify-content: space-evenly;
     height: auto;
-    /* row-gap: 50px; */
+    row-gap: 25px;
   }
 
   .left,
   .right {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
   }
   .left h2 {
     font-size: 2.5rem;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   .right {
