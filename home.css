@@ -242,6 +242,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 50px 4%;
   column-gap: 5%;
@@ -300,6 +301,7 @@ body {
 /* right side page1 */
 .right {
   width: 50%;
+  height: auto;
   display: grid;
   place-items: center;
   position: relative;
