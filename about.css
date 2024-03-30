@@ -183,8 +183,8 @@ body
 
 .left_foot section
 {
-    height: 9vh;
-    width: 90%;
+    height: auto;
+    width: 100%;
     border: 1px solid grey;
     display: flex;
    align-items: center;
@@ -297,10 +297,11 @@ body
   }
   .about-us section
   {
-    height: 55vh;
+    height: auto;
     width: 100%;
     flex-direction: column;
-    margin-bottom: 3%;
+    margin-bottom: 50px;
+    margin-top: 20px;
     background-color: transparent;
   }
   .about-us section p
@@ -313,6 +314,7 @@ body
   .about-us section img
   {
     width: 85%;
+    margin-bottom: 20px;
   }
   
   .final
