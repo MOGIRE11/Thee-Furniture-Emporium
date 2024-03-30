@@ -48,3 +48,6 @@ const productList=document.querySelector('.more-products');
 productList.addEventListener('click',function(e){
     productList.classList.toggle('show-more-products');
 });
+
+
+

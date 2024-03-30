@@ -16,7 +16,7 @@ body
   width: 100dvw;
   max-width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: whitesmoke;
+  background: #FAFAFA;
   scroll-behavior: smooth;
   font-size:15px;
 }
@@ -45,22 +45,28 @@ body
  
  .logo-name
  {
-  font-family: cursive;
-  font-weight: 550;
+  font-weight: 400;
   color: purple;
   width: 250px;
   font-size: 17px;
   height: 35px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   padding: 0px 1%;
-  border-top-color:orangered ;
+  /* border-top-color:orangered ;
   border-right-color:blue ;
-  border-bottom-color: yellowgreen;
+  border-bottom-color: yellowgreen; */
   border-bottom-width: 5px;
+  /* text-align: end; */
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  border: 1px solid;
  }
+ 
  #favicon2
  {
-  width: 24px;
+  width: 20px;
+  margin: 0 4px;
  }
  .navlinks
  {
