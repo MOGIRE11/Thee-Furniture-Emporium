@@ -2,25 +2,25 @@
 class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-        <div class="navbar">
+        <div class="navbar flex ">
             <section class="logo">
                 <!-- company logo  goes here -->
-                <h3 class="logo-name">Thee <img src="istock/favicon2.png" id="favicon2" alt="couch"> Furniture Emporium</h3>
+                <h3 class="logo-name text-sm">Thee <img src="istock/favicon2.png" id="favicon2" alt="couch"> Furniture Emporium</h3>
             </section>
             
             <section class="navlinks">
                 <ul>
-                    <li><a href="index.html" target="_parent">| <i class="fas fa-home"></i>  Home </a></li>
+                    <li><a href="index.html" target="_parent"> <i class="fas fa-home text-sm"></i>  Home </a></li>
                     <li><a href="about.html" target="_parent"><i class="fas fas fa-users"></i> &nbsp;About Us </a></li>  
                     <li><a href="enquire.html" target="_parent"><i class="fas fas fa-clipboard-list"></i> &nbsp;Enquire  </a></li>
-                    <li><a href="products.html" target="_parent"><i class="fas fas fa-shopping-cart"></i> &nbsp;Products  |</a></li>
+                    <li><a href="products.html" target="_parent"><i class="fas fas fa-shopping-cart"></i> &nbsp;Products </a></li>
                                      
                 </ul>
             </section>
             
             <section class="searchbar">
                <fieldset class="navsearch">
-                <!-- <img src="istock/search_icon.svg" id="seek" alt="search icon"> -->
+                
                 <i class="fas fas fa-search"></i>
                 <input type="search" id="search" autofocus placeholder="Search">
                 
