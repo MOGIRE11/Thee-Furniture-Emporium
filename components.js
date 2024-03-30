@@ -67,3 +67,17 @@ class Header extends HTMLElement {
   }
 }
 customElements.define("main-navigation", Header);
+
+
+
+
+
+class Footer extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      
+        
+        `;
+  }
+}
+customElements.define("main-footer", Footer);
