@@ -532,16 +532,17 @@ body {
   font-weight: 500;
 }
 
+
 /* footer */
 .footer {
   height: auto;
   width: 100dvw;
-  /* background-color: white; */
-  /* border: 1px solid black; */
 }
 .testh2 {
   text-align: center;
   color: purple;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 .testimony {
   width: 100%;
@@ -551,18 +552,18 @@ body {
   padding: 2%;
   background: powderblue;
   border-radius: 10px;
+  gap: 10px;
 }
 
 .testimony div {
   height: auto;
-  width: 90%;
   border: 1px solid orange;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0px 3%;
+  padding: 0px 10px;
   background-color: orange;
 }
 
@@ -570,28 +571,32 @@ body {
   font-size: 1rem;
   color: black;
 }
+
 .testimony div section {
-  height: auto;
   width: 100%;
-  margin-top: 4%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap:10px;
 }
 .testimony div img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 50%;
+  border: 1px solid;
 }
 .testimony div section h3 {
   color: purple;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 .testimony div section span {
   color: black;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .last_last {
@@ -602,8 +607,14 @@ body {
 }
 
 /*  */
+.newsletter{
+ display: flex;
+ flex-direction: column;
+ align-items: center;  
+ margin-bottom: 20px;
+}
 
-/* .newsletter p
+.newsletter p
 {
   width: 35%;
   text-align: center;
@@ -614,13 +625,14 @@ body {
 {
   color: yellow;
   text-decoration: underline;
-} */
+  margin-top: 20px;
+}
 
-/* .newsletter section
+.newsletter section
 {
  width: 35%;
  height: 40px;
- display: flex;
+ /* display: flex; */
  align-items: center;
  justify-content: center;
 }
@@ -633,9 +645,9 @@ body {
   font-size: 1rem;
   border: 1px solid black;
   border-right: 1px solid orange;
-} */
+}
 
-/* .newsletter section button
+.newsletter section button
 {
   height: 100%;
   width: 25%;
@@ -647,7 +659,7 @@ body {
 .newsletter section button:active
 {
   transform: translate(0px,2px);
-} */
+}
 
 .final {
   height: 55vh;
