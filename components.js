@@ -72,12 +72,18 @@ customElements.define("main-navigation", Header);
 
 
 
-class Footer extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+// class Footer extends HTMLElement {
+//   connectedCallback() {
+//     this.innerHTML = `
       
         
-        `;
-  }
-}
-customElements.define("main-footer", Footer);
+//         `;
+//   }
+// }
+// customElements.define("main-footer", Footer);
+
+
+
+
+
+
