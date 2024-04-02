@@ -1,5 +1,6 @@
 const filterInput=document.getElementById('search');
-const listItems=document.querySelectorAll('#myUl li');
+// const listItems=document.querySelectorAll('#myUl li');
+const listItems = Array.from(document.querySelectorAll("#myUl li"));
 
 filterInput.addEventListener('input',function()
 {
