@@ -1,29 +1,28 @@
-const filterInput=document.getElementById('search');
+//const filterInput=document.getElementById('search');
 // const listItems=document.querySelectorAll('#myUl li');
-const listItems = Array.from(document.querySelectorAll("#myUl li"));
+//const listItems = Array.from(document.querySelectorAll("#myUl li"));
 
-filterInput.addEventListener('input',function()
-{
-    const filterValue=filterInput.value.toLowerCase();
+// filterInput.addEventListener('input',function()
+// {
+//     const filterValue=filterInput.value.toLowerCase();
     
-    listItems.forEach(item=>
-        {
-            const text=item.textContent.toLowerCase();
-            item.style.display=text.includes(filterValue)?
-            'block':'none';
-        });
+//     listItems.forEach(item=>
+//         {
+//             const text=item.textContent.toLowerCase();
+//             item.style.display=text.includes(filterValue)?
+//             'block':'none';
+//         });
     
-});
+// });
 
 
-// increase search input length onclick
-const searchItem=document.querySelector('.navsearch');
-const searchInput=document.querySelector('#search');
-searchItem.addEventListener('click', function(){
-    searchItem.style.width='250px';
-    searchInput.style.display='flex';
-    searchInput.style.width='85%';
-});
+// const searchItem=document.querySelector('.navsearch');
+// const searchInput=document.querySelector('#search');
+// searchItem.addEventListener('click', function(){
+//     searchItem.style.width='250px';
+//     searchInput.style.display='flex';
+//     searchInput.style.width='85%';
+// });
 
 
 // hamburger menu
