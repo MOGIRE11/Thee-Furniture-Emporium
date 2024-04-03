@@ -228,25 +228,4 @@ body
     margin-bottom: 20px;
   }
   
-  .final
-  {
-    /* height: 70dvh; */
-    padding-top: 10%;
-  }
-  .foot
-  {
-    overflow: auto;
-  }
-  
-  .lin
-  {
-    width: 200px;
-  }
-  
-  .last_foot
-  {
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-evenly;
-  }
 }
