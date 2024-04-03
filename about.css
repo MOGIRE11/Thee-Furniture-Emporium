@@ -15,99 +15,12 @@ body
     overflow-x: hidden;
   max-width: 100%;
   height: auto;
-  background: url(/istock/scattered-forcefields.svg);
+  /* background: url(/istock/scattered-forcefields.svg); */
   /* background: whitesmoke; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/* navbar */
-.navbar
- {
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 2%;
-    position: fixed;
-    top: 0;
-    z-index: 999;
-    background:whitesmoke;
-    /* border: 1px solid black; */
- }
- 
- .logo-name
- {
-  font-family: cursive;
-  font-weight: 550;
-  color: purple;
-  width: 300px;
-  height: 35px;
-  border: 2px solid purple;
-  padding: 0px 2%;
-  border-top-color:orangered ;
-  border-right-color:blue ;
-  border-bottom-color: yellowgreen;
-  border-bottom-width: 5px;
- }
- #favicon2
- {
-  width: 25px;
- }
- .navlinks
- {
-    width: 40%;
-    height: 100%;
- }
- .navlinks ul 
- {
-   width: 100%;
-   height: 100%;
-    display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   list-style-type: none;
- }
- .navlinks ul a
- {
-    text-decoration: none;
-    color: grey;
-    font-weight: 600;
- }
- .navlinks ul a:hover
-{
-    text-decoration: underline;
-   text-underline-offset: 8px;
-   text-decoration-thickness: 3px;
-   text-decoration-color: purple;
-   color: black;
-}
- .navsearch
- {
-    width: 250px;
-    height: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid orangered;
-    border-radius: 20px;
- }
- #search
- {
-    width: 85%;
-    height: 20px;
-   border:none ;
-   font-size: .9rem;
-   background: transparent;
- }
- #search:focus
-{
-    outline: burlywood;
-}
 
-#seek
-{
-  width: 20px;
-}
+
 
 /* main */
 .about-us
