@@ -124,11 +124,12 @@ body
   text-align: center;
   color: purple;
   text-decoration: underline;
+  margin: 20px 0;
 }
 .about-us section
 {
-  /* border: 1px solid blue; */
-  height: 40vh;
+  border: 1px solid blue;
+  height: auto;
   width: 80%;
   display: flex;
   align-items: center;
@@ -285,7 +286,7 @@ body
   color: white;
 }
 
-@media (max-width:600px)
+@media (max-width:900px)
 {
   .navsearch,.navlinks
   {
@@ -313,7 +314,7 @@ body
   }
   .about-us section img
   {
-    width: 85%;
+    width: 70%;
     margin-bottom: 20px;
   }
   
