@@ -201,10 +201,7 @@ body
 
 @media (max-width:900px)
 {
-  .navsearch,.navlinks
-  {
-    display:none;
-  }
+  
   main
   {
     height: auto;
@@ -233,7 +230,7 @@ body
   
   .final
   {
-    height: 70dvh;
+    /* height: 70dvh; */
     padding-top: 10%;
   }
   .foot

@@ -72,15 +72,105 @@ customElements.define("main-navigation", Header);
 
 
 
-// class Footer extends HTMLElement {
-//   connectedCallback() {
-//     this.innerHTML = `
-      
+class Footer extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <section class="last_last">
+                
+                <div class="newsletter flex flex-col items-center justify-center">
+                    <h2 class="text-3xl text-white">NEWSLETTER</h2>
+                    <p>
+                        Be the first to know about discounts and offers in your mailbox.
+                        Unsubscribe whenever you like with just one click.
+                    </p>
+                    <section>
+                        <input type="email" name="user email" placeholder="Enter your email address">
+                        <button type="submit">SUBMIT</button>
+                    </section>
+                </div>
+                
+                <div class="final">
+                    <div class="foot">
+                        <section class="left_foot"> 
+                            <section>
+                                <img src="istock/pin_icon.png" alt="location-png">
+                                <p><b>Address: </b><br> 106 VineStreet ,NewYork. </p>
+                            </section>
+                            
+                            <section>
+                             <lord-icon
+                               src="https://cdn.lordicon.com/tftaqjwp.json"
+                                trigger="boomerang"
+                                style="width:50px;height:50px">
+                              </lord-icon>
+                              <p><b>Phone:</b><br>  +1 (235) 235 5987</p>
+                            </section>
+                            
+                            <section>
+                                <lord-icon
+                                src="https://cdn.lordicon.com/diihvcfp.json"
+                                trigger="boomerang"
+                                style="width:50px;height:50px">
+                            </lord-icon>
+                                <p> <b>Email: </b><br> info@emporium@gmail.com. </p>
+                            </section>
+                            
+                            <section>
+                                <img src="istock/globe_icon.png" alt="globe-png">
+                                <p> <b>Website: </b><br> @Emporium.com </p>
+                            </section>
+                        </section>
+                    
+                    
+                        <section class="lin">
+                            <h2>Navigation menu</h2>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="enquire.html">Enquire</a></li>
+                            </ul>
+                        </section>
+                        <section class="lin">
+                            <h2>Product category</h2>
+                            <ul>
+                                <li><a href="products.html">Seating</a></li>
+                                <li><a href="products.html">Beds</a></li>
+                                <li><a href="products.html">Sofas</a></li>
+                                <li><a href="products.html">Cabinets</a></li>
+                                <li><a href="products.html">Office desks</a></li>
+                            </ul>
+                        </section>
+                        <section class="lin">
+                            <h2>Useful Links</h2>
+                            <ul>
+                                <li><a href="#">Promo</a></li>
+                                <li><a href="#">Custom work</a></li>
+                                <li><a href="#">Warehouse</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Track my order</a></li>          
+                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">Terms and Agreements</a></li>
+                                
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="last_foot">
+                        <div class="copyright">
+                            &copy;2023. Thee Furniture Emporium.All rights reserved
+                        </div>
+                        <div class="footprint">
+                            <!-- my logo -->
+                            <a href="https://github.com/MOGIRE11" target="_blank">A Thee_mmo Creation</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         
-//         `;
-//   }
-// }
-// customElements.define("main-footer", Footer);
+        `;
+  }
+}
+customElements.define("main-footer", Footer);
 
 
 
